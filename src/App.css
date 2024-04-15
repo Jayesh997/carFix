@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sm\:bg-img-sm {
+  background-image: url('./assets/images/aboutus-bg-mobile.jpeg');
+  object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lg\:bg-img-lg {
+  background-image: url('./assets//images/aboutus-bg.jpeg');
+  object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-container {
+  
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.carousel {
+  overflow: hidden;
+}
+
+.slides {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 auto;
+}
+
+/* Optional: Style for the active slide */
+.slide.active {
+  opacity: 1;
+}
+
+/* Optional: Button styles for navigation */
+.prev,
+.next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.prev {
+  left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.next {
+  right: 0;
 }
