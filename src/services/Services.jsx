@@ -9,7 +9,7 @@ import serviceCard1 from '../assets/images/services-1.png'
 import ServiceCard from '../components/ServiceCard'
 const Services = () => {
   return (
-    <div className='w-screen h-screen flex flex-col items-center justify-center my-5'>
+    <div className='w-screen h-screen flex flex-col items-center justify-center my-[200px] sm:my-[100px]'>
         <p className='text-primary-red font-chakra'>OUR SERVICES</p>
         <h1 className='text-gray-900 font-chakra'>WE PROVIDE GREAT SERVICES FOR YOUR VEHICLE</h1>
         <div>

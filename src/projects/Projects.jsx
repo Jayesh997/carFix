@@ -14,9 +14,9 @@ const Projects = () => {
   ];
 
   return (
-    <div className='w-screen h-screen flex flex-col justify-center items-center'>
+    <div className='w-screen h-screen flex flex-col justify-center items-center my-12 sm:m-0'>
       <h1 className='text-primary-red font-chakra mb-2 text-lg'>OUR WORK</h1>
-      <h1 className='text-black text-2xl mb-12'>LATEST PROJECTS WE HAVE DONE</h1>
+      <h1 className='text-black text-2xl mb-12 text-center sm:text-left'>LATEST PROJECTS WE HAVE DONE</h1>
       <div className='hidden md:flex w-screen justify-center items-center gap-4'>
         <Card src={work1} heading={'AUTO REPAIR'} text={'ENGINE REPAIR'} btnText={'KNOW MORE'} />
         <Card src={work2} heading={'AUTO REPAIR'} text={'CAR TYRE CHANGE'} btnText={'KNOW MORE'} />
