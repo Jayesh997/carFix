@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/carFix/static/css/main.4e5db46e.css",
+    "main.js": "/carFix/static/js/main.c983668a.js",
+    "static/media/aboutus-bg.jpeg": "/carFix/static/media/aboutus-bg.d2132dbcdda05dab7d12.jpeg",
+    "static/media/aboutus-bg-mobile.jpeg": "/carFix/static/media/aboutus-bg-mobile.601a8b0e100216ea5fc7.jpeg",
+    "static/media/hero-banner.png": "/carFix/static/media/hero-banner.ade8c6cf594735200884.png",
+    "static/media/work-1.jpg": "/carFix/static/media/work-1.0b0c5cce7abf55b1c9eb.jpg",
+    "static/media/work-3.jpg": "/carFix/static/media/work-3.88d93caa5c1ac5374fb2.jpg",
+    "static/media/about-banner.png": "/carFix/static/media/about-banner.48ca8797bf8bc4300d2c.png",
+    "static/media/work-2.jpg": "/carFix/static/media/work-2.5cbc748fadb41c5b3db4.jpg",
+    "static/media/hero-bg.jpg": "/carFix/static/media/hero-bg.4b145917eecb22bcf999.jpg",
+    "static/media/services-5.png": "/carFix/static/media/services-5.d7340b55361dbacd9586.png",
+    "index.html": "/carFix/index.html",
+    "main.4e5db46e.css.map": "/carFix/static/css/main.4e5db46e.css.map",
+    "main.c983668a.js.map": "/carFix/static/js/main.c983668a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e5db46e.css",
+    "static/js/main.c983668a.js"
+  ]
+}
