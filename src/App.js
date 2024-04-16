@@ -2,6 +2,7 @@ import './App.css';
 import AboutUs from './aboutus/AboutUs';
 import Navbar from './components/Navbar';
 import Dashboard from './dashboard/Dashboard';
+import Footer from './footer/Footer';
 import Projects from './projects/Projects';
 import Services from './services/Services';
 
@@ -13,6 +14,7 @@ function App() {
    <Services/>
    <AboutUs/>
    <Projects/>
+   <Footer/>
     </div>
   );
 }
